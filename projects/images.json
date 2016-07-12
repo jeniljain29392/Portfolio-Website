@@ -1,0 +1,50 @@
+[
+    {
+        "title":"AngularJS projects",
+        "desc":"Some angularJS projects",
+        "desc_long":"Developed some angularjs projects like a Gmail Clone and a Portfolio Gallery using angularjs concepts like directives, controllers, templates, routing",
+        "image":"portfolioGallery.png",
+        "skills":"AngularJS, Javascript, HTML/CSS, jQuery, JSON",
+        "link" : "https://github.com/jeniljain29392/Portfolio-Gallery-AngularJS"
+    },
+    {
+        "title":"GeoSpatial Operations",
+        "desc":"GeoSpatial Operations on Apache Spark",
+        "desc_long":"A JAVA library using Apache Spark and Hadoop on distributed clusters to run geometric operations like geometric union, spatial join, and closest pair on large dataset and analyzed the performance.",
+        "image":"nextgov_900x650.jpg",
+        "skills":"Java, Apache Spark, Hadoop, HDFS",
+        "link" : "https://github.com/jeniljain29392/Spark-GeoSpatial-Library_JAVA"
+    },
+    {
+        "title":"Secure Chat room",
+        "desc":"A secure chat system with mutiple private and public rooms",
+        "desc_long":"Implemented a secure chat application which allow user to create a chat room using a secure infrastructure. Used JAVA RMI framework to establish a remote connection between clients and server and used AES encryption.",
+        "image":"secureChatRoom_900x650.jpg",
+        "skills":"Java swing and RMI framework, AES encryption",
+        "link" : "https://github.com/jeniljain29392/Secure-Chat-room"
+    },
+    {
+        "title":"LeetCode Problems",
+        "desc":"Data structures and algorithms problems",
+        "desc_long":" Solved some easy to hard level data structures and algorithms problem from leetcode in C++. It includes LinkedList, Binary tree, Math, Recursive, Back tracking and Dynamic Programming",
+        "image":"dsalgo_900x650.jpg",
+        "skills":"Data structures and algorithms, C++ and Java",
+        "link" : "https://github.com/jeniljain29392/Data-structures-and-Algorithms_Cpp"
+    },
+    {
+        "title":"Embedded Software",
+        "desc":"Embedded system programming projects",
+        "desc_long":"This includes some of my embedded software projects which I implemented during my Masters studies like RTOS Shared queue, Flight Simulator using Inertial Measurement Unit (IMU), Inter-Processor Communication, I2C Driver for an EEPROM chip and an Automatic Parking Indicator",
+        "image":"embeddedSystem_900x650.jpg",
+        "skills":"Linux Device Drive, Kernel programing, C/C++, Sensor Integration, Intel Galileo board, bus communication protocols like I2C, SPI, and  USART, Multithreaded programing, POSIX, Synchronization, Linux OS, Kalman Filter",
+        "link" : "https://github.com/jeniljain29392/Embedded-Software"
+    },
+    {
+        "title":"Video Retrival",
+        "desc":"Retrieve Similar videos frome database using motion estimation",
+        "desc_long":"Implemented a Content Based Video Retrieval algorithm by extracting low level features like motion vectors in MATLAB. The feature vectors were extracted using Ce Liu's optical flow implementation for motion estimation and motion segmentation. To classify the videos in the data-set k-means clustering technique was used. A ranking system was also developed using min heap.",
+        "image":"videoRetrieval_900x650.png",
+        "skills":"Video processing, MATLAB, motion estimation and segmentation, K-means Clustering, C++",
+        "link" : "https://github.com/jeniljain29392/Video-Processing"
+    }
+]

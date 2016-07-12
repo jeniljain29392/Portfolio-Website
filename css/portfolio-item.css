@@ -1,0 +1,194 @@
+/*!
+ * Start Bootstrap - Portfolio Item HTML Template (http://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ */
+
+body {
+    padding-top: 70px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+}
+
+.portfolio-item {
+    margin-bottom: 25px;
+}
+
+#header_name {
+	font-size: 20px;
+	font-family: Arial Black;
+}
+
+#about, #contact h1 {
+	font-family: Arial Black;
+}
+
+section {
+    padding: 70px 0;
+}
+
+section.dark {
+    color: #fff;
+    background-color: #222;
+}
+
+footer {
+    color: #fff;
+    padding: 25px 0;
+    background-color: #222;
+}
+
+#summary {
+	padding: 20px 0 0 20px;
+}
+
+.btn-social {
+    display: inline-block;
+    width: 120px;
+    height: 50px;
+    border: 2px solid #fff;
+    border-radius: 10%;
+    text-align: center;
+    font-size: 20px;
+    line-height: 45px;
+}
+
+#contact .btn-social {
+    width: 50px;
+    border-radius: 100%;
+}
+
+.btn-outline {
+    margin-top: 15px;
+    border: solid 2px #fff;
+    font-size: 20px;
+    color: #fff;
+    background: 0 0;
+    transition: all .3s ease-in-out;
+}
+
+.btn-outline-dark {
+    margin-top: 10px;
+    border: solid 2px #222;
+    font-size: 15px;
+    color: #222;
+    background: 0 0;
+    transition: all .3s ease-in-out;
+}
+
+.btn-outline:hover,
+.btn-outline:focus,
+.btn-outline:active,
+.btn-outline.active,
+.btn-outline-dark:hover,
+.btn-outline-dark:focus,
+.btn-outline-dark:active,
+.btn-outline-dark.active {
+    border: solid 2px #fff;
+    color: #808080;
+    background: #fff;
+}
+
+.btn:focus,
+.btn:active,
+.btn.active {
+    outline: 0;
+}
+
+/* portfolio images */
+
+#portfolio .portfolio-item {
+    right: 0;
+    margin: 0 0 15px;
+}
+
+#portfolio .portfolio-item .portfolio-link {
+    display: block;
+    position: relative;
+    margin: 0 auto;
+    max-width: 400px;
+}
+
+#portfolio .portfolio-item .portfolio-link .caption {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    background: rgba(100,100,100,.8);
+    -webkit-transition: all ease .5s;
+    -moz-transition: all ease .5s;
+    transition: all ease .5s;
+}
+
+#portfolio .portfolio-item .portfolio-link .caption:hover {
+    opacity: 1;
+}
+
+#portfolio .portfolio-item .portfolio-link .caption .caption-content {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    height: 20px;
+    margin-top: -12px;
+    text-align: center;
+    font-size: 20px;
+    color: #fff;
+}
+
+#portfolio .portfolio-item .portfolio-link .caption .caption-content i {
+    margin-top: -12px;
+    font-size: 25px;
+}
+
+#portfolio .portfolio-item .portfolio-link .caption .caption-content h3,
+#portfolio .portfolio-item .portfolio-link .caption .caption-content h4 {
+    margin: 0;
+}
+
+#portfolio * {
+    z-index: 2;
+}
+
+@media(min-width:767px) {
+    #portfolio .portfolio-item {
+        margin: 0 0 30px;
+    }
+}
+
+/* AngularJS image slide */
+.large {
+    width:405px;
+}
+
+.mainimageshell {
+    background-color:#fff;
+    border-radius:8px;
+    float:left;
+    width:400px;
+    padding:10px;
+}
+
+.viewwindow {
+    width:400px;
+    height:307px;
+    overflow-x: hidden;
+    position:relative;
+}
+
+.fullsizelist{
+    position:absolute;
+    top:0;
+    left:0;
+}
+
+
+.bg li {
+    list-style:none;
+    display:inline-block;
+}
+
+.bg ul{
+    padding:0;
+    margin:0;
+    white-space:nowrap;
+}
+
+/* Contact form */
