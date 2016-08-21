@@ -17,7 +17,7 @@ body {
 	font-family: Arial Black;
 }
 
-#about, #contact h1 {
+#about, #contact, #cd-timeline h1 {
 	font-family: Arial Black;
 }
 
@@ -30,11 +30,11 @@ section.dark {
     background-color: #222;
 }
 
-footer {
+/*footer {
     color: #fff;
     padding: 25px 0;
     background-color: #222;
-}
+}*/
 
 #summary {
 	padding: 20px 0 0 20px;

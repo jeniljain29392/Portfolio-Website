@@ -8,6 +8,14 @@
         "link" : "https://github.com/jeniljain29392/Portfolio-Gallery-AngularJS"
     },
     {
+        "title":"WCF RESTful Web Services",
+        "desc":"RESTful web services for a Car Insurance database company",
+        "desc_long":"Created a WCF RESTful services in C# which can perform CRUD operations using HTTP verbs like GET, POST, PUT and DELETE. Used XML parsing for sending and updating data from the XML document. Also created a web application to test the web services",
+        "image":"restful_900x650.png",
+        "skills":"RESTful web services, ASP.NET, C#, WCF, XML, LINQ",
+        "link" : "https://github.com/jeniljain29392/WCF-RESTful-web-services"
+    },
+    {
         "title":"GeoSpatial Operations",
         "desc":"GeoSpatial Operations on Apache Spark",
         "desc_long":"A JAVA library using Apache Spark and Hadoop on distributed clusters to run geometric operations like geometric union, spatial join, and closest pair on large dataset and analyzed the performance.",
@@ -22,6 +30,14 @@
         "image":"secureChatRoom_900x650.jpg",
         "skills":"Java swing and RMI framework, AES encryption",
         "link" : "https://github.com/jeniljain29392/Secure-Chat-room"
+    },
+    {
+        "title":"FSK CallerID Decoder",
+        "desc":"Data structures and algorithms problems",
+        "desc_long":"Caller ID is a telephone service, that transmits a caller's number to the called party's telephone equipment during the ringing signal. Modulation technique used for transmittinf Caller ID is either FSK or DTMF. FSK CallerID Decoding, demodulatess and decode the caller ID signal coming from the telephone jack and gives the Caller ID message.",
+        "image":"callerID_900x650.png",
+        "skills":"C/C++, Linux, Smartphone, API, Digital Signal Programming",
+        "link" : "https://github.com/jeniljain29392/FSK-CallerID-decoding"
     },
     {
         "title":"LeetCode Problems",
